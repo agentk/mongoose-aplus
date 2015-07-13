@@ -4,7 +4,7 @@
   "description": "Simple Node Promise/A+ add on for mongoose",
   "main": "mongoose-aplus.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/agentk/mongoose-aplus/issues"
   },
-  "homepage": "https://github.com/agentk/mongoose-aplus#readme"
+  "homepage": "https://github.com/agentk/mongoose-aplus#readme",
+  "dependencies": {
+    "mongoose": "^4.0.7"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-spies": "^0.6.0",
+    "mocha": "^2.2.5"
+  }
 }
