@@ -1,0 +1,57 @@
+{
+  "root": true,
+  "plugins": [
+    "esformatter-collapse-objects",
+    "esformatter-dot-notation",
+    "esformatter-jsx",
+    "esformatter-literal-notation",
+    "esformatter-parseint",
+    "esformatter-quotes",
+    "esformatter-remove-trailing-commas",
+    "esformatter-semicolons",
+    "esformatter-var-each"
+  ],
+  "indent": {
+    "FunctionExpression": 1,
+    "ArrayExpression": 1,
+    "ObjectExpression": 1
+  },
+  "jsx": {
+    "formatJSX": true,
+    "htmlOptions": {
+      "unformatted": []
+    }
+  },
+  "quotes": {
+    "type": "single",
+    "avoidEscape": false
+  },
+  "lineBreak": {
+    "before": {
+      "ArrayExpressionClosing": 1
+    },
+    "after": {
+      "ArrayExpressionOpening": 1,
+      "ArrayExpressionComma": 1
+    }
+  },
+  "whiteSpace": {
+    "before": {
+      "PropertyName": 1
+    }
+  },
+  "collapseObjects": {
+    "ObjectExpression": {
+      "maxLineLength": 120,
+      "maxKeys": 5,
+      "maxDepth": 4,
+      "forbidden": []
+    },
+    "ArrayExpression": {
+      "maxLineLength": 120,
+      "maxKeys": 5,
+      "maxDepth": 4,
+      "forbidden": []
+    }
+  }
+}
