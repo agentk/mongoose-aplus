@@ -7,6 +7,7 @@
 Simple Node Promise/A+ add on for mongoose
 
 - Based on the [mongoose-promised](https://github.com/davideicardi/mongoose-promised) by [Davide Icardi](https://github.com/davideicardi) which allows you to use Q promises with mongoose.
+- Follows mongoose version. Ie, mongoose-aplus@4.2.4 requires mongoose@4.2.4
 
 ## Quickstart
 
