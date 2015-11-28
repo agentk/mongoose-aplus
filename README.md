@@ -1,4 +1,4 @@
-# mongoose-aplus
+# mongoose-aplus (DEPRICATED)
 
 [![Build Status](https://travis-ci.org/agentk/mongoose-aplus.svg?branch=master)](https://travis-ci.org/agentk/mongoose-aplus)
 [![NPM version](https://badge.fury.io/js/mongoose-aplus.svg)](http://badge.fury.io/js/mongoose-aplus)
@@ -8,6 +8,11 @@ Simple Node Promise/A+ add on for mongoose
 
 - Based on the [mongoose-promised](https://github.com/davideicardi/mongoose-promised) by [Davide Icardi](https://github.com/davideicardi) which allows you to use Q promises with mongoose.
 - Follows mongoose version. Ie, mongoose-aplus@4.2.4 requires mongoose@4.2.4
+
+## Depricated
+
+Mongoose now includes builtin support for Promises/A+. As such this project is no longer required and will not be maintained.
+- [http://mongoosejs.com/docs/promises.html](http://mongoosejs.com/docs/promises.html)
 
 ## Quickstart
 
